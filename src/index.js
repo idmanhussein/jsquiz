@@ -7,3 +7,6 @@ const resultsContainer = document.getElementById("results");
 const submitButton = document.getElementById("submit");
 
 submitButton.addEventListener("click", showResults);
+
+buildQuiz();
+showResults();

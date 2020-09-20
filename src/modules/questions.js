@@ -1,4 +1,4 @@
-const questions = [
+export const questions = [
   {
     question:
       "'He had a --- memory and he failed the memory test'. - Fill in the blank with one of the four options.",
@@ -119,3 +119,4 @@ const questions = [
     correctAnswer: "b",
   },
 ];
+export default questions;

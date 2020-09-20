@@ -1,5 +1,10 @@
-function showResults() {
-  const answerContainers = quizContainer.querySelectorAll(".answers");
+import buildQuiz from "./buildQuiz.js";
+import questions from "./questions.js";
+
+const resultsContainer = document.getElementById("results");
+
+function showResults(quizContainer) {
+  const answerContainers = questions.map((answers) => answers.correctAnswer);
 
   let numCorrect = 0;
 
@@ -20,3 +25,4 @@ function showResults() {
 }
 
 export default showResults;
+// capture selected answers into an array - check if itt
