@@ -91,7 +91,7 @@
         d: "Weak",
       },
       //this answer should be d
-      correctAnswer: "a",
+      correctAnswer: "d",
     },
 
     {
@@ -104,7 +104,7 @@
         d: "Know",
       },
       //this answer should be a
-      correctAnswer: "b",
+      correctAnswer: "a",
     },
 
     {
@@ -229,4 +229,3 @@ function addClickToButton(buttonId, slide) {
   button.addEventListener("click", slide);
   return button;
 }
-
