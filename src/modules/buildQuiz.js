@@ -1,6 +1,7 @@
 import questions from "./questions.js";
-const quizContainer = document.getElementById("quiz");
+
 function buildQuiz() {
+  const quizContainer = document.getElementById("quiz");
   const output = [];
 
   questions.forEach((currentQuestion, questionNumber) => {
