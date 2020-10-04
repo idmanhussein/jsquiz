@@ -1,3 +1,9 @@
+import buildQuiz from "./buildQuiz.js";
+import showResults from "./showResults.js";
+
+buildQuiz();
+showResults();
+
 export default function showSlide(n) {
   slides[currentSlide].classList.remove("active-slide");
   slides[n].classList.add("active-slide");

@@ -1,8 +1,11 @@
 import buildQuiz from "./buildQuiz.js";
 import questions from "./questions.js";
 
+buildQuiz();
 function showResults() {
+  const quizContainer = document.getElementById("quiz");
   const answerContainers = quizContainer.querySelectorAll(".answers");
+  const resultsContainer = document.getElementById("results");
 
   let numCorrect = 0;
 
