@@ -1,5 +1,6 @@
 import buildQuiz from "./buildQuiz.js";
 import showResults from "./showResults.js";
+import addClickToButton from "./addClickToButton.js";
 
 buildQuiz();
 showResults();
@@ -23,6 +24,8 @@ export default function showSlide(n) {
   }
 }
 
+const nextButton = addClickToButton("next", showNextSlide);
+const previousButton = addClickToButton("previous", showPreviousSlide);
 function showNextSlide() {
   showSlide(currentSlide + 1);
 }
@@ -31,7 +34,6 @@ function showPreviousSlide() {
   showSlide(currentSlide - 1);
 }
 
-const resultsContainer = document.getElementById("results");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 

@@ -1,5 +1,4 @@
-const previousButton = addClickToButton("previous", showPreviousSlide);
-const nextButton = addClickToButton("next", showNextSlide);
+import showResults from "./showResults.js";
 const submitButton = addClickToButton("submit", showResults);
 
 export default function addClickToButton(buttonId, slide) {
