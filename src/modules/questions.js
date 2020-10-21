@@ -8,7 +8,7 @@ const questions = [
       c: "Woke",
       d: "Weak",
     },
-    //this answer should be d
+
     correctAnswer: "d",
   },
 
@@ -21,7 +21,7 @@ const questions = [
       c: "Gnu",
       d: "Know",
     },
-    //this answer should be a
+
     correctAnswer: "a",
   },
 
